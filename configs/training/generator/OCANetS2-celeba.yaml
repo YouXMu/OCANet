@@ -1,0 +1,13 @@
+# @package _group_
+kind: OCANetS2
+n_encoder_res: 5
+inp_channels: 4
+out_channels: 3
+dim: 52
+num_blocks: [1,1,1,9,1,1,1]
+num_refinement_blocks: 0
+ffn_expansion_factor: 1.8
+bias: False
+features: [256,128,64,32]
+LayerNorm_type: WithBias
+dual_pixel_task: False
